@@ -11,9 +11,12 @@ body {
 }
 
 #main h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 16px;
-    color: #333333;
+    color: #1a6fa8;
+    border-bottom: 3px solid #1a6fa8;
+    padding-bottom: 8px;
+    letter-spacing: 0.05em;
 }
 
 #wrapper {
