@@ -20,7 +20,8 @@ body {
 }
 
 #main h2{
-  color: #1a6fa8
+  color: #1a6fa8;
+  border-bottom: 3px solid #1a6fa8;
 }
 #wrapper {
   display: flex;          
@@ -34,7 +35,7 @@ body {
   flex-shrink: 0;         
  
  
-  background-color: #dce8f5;
+  background-color: #b8d4ed; 
  
   padding: 20px 0;
 }
@@ -122,4 +123,24 @@ footer {
   width: 600px;
   height: 400px;
   object-fit: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 12px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  text-align: left;
+}
+th {
+  background-color: #dce8f5;
+  font-weight: bold;
+  width: 120px;
+}
+tr:nth-child(even) td {
+  background-color: #f8f8f8;
 }
