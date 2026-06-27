@@ -19,6 +19,9 @@ body {
     letter-spacing: 0.05em;
 }
 
+#main h2{
+  color: #1a6fa8
+}
 #wrapper {
   display: flex;          
   min-height: calc(100vh - 50px); 
