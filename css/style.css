@@ -41,11 +41,11 @@ body {
 #sidebar {
   width: 200px;           
   flex-shrink: 0;         
- 
- 
   background-color: #b8d4ed; 
- 
   padding: 20px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
  
 #sidebar ul {
