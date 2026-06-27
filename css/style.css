@@ -77,7 +77,10 @@ body {
   font-weight: bold;    
   color: #ff0000;      
 }
- 
+
+#sidebar li:hover {
+  background-color: #a0c0e0;
+}
  
 
 #main {
