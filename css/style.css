@@ -77,8 +77,6 @@ body {
 #main img {
   width: 100%;            
   max-width: 700px;
-  height: 300px;
-  object-fit: cover;
   display: block;
   margin-bottom: 20px;
   border-radius: 8px;
